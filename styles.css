@@ -38,6 +38,12 @@ section {
 
 .header .navbar #close {
     display: none;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+    color: #fff;
 }
 
 .header .navbar a{
@@ -142,7 +148,45 @@ section {
         flex-flow: column;
         justify-content: center;
         z-index: 1200;
-        
+    }
+
+    .header .navbar .active {
+        right: 0
+    }
+
+    .header .navbar .close {
+        display: block;
+    }
+
+    .header .navbar a {
+        display: block;
+        margin:1rem 0;
+        text-align: center;
+        font-size: 3rem
+    }
+
+    .home .content {
+        padding-top: 9.5rem;
+    }
+
+    .home .content .title {
+        font-size: 4rem;
+    }
+
+    .home .content .description {
+        font-size: 1.6rem;
+    }
+
+    .home .image img {
+        width: 368px;
     }
 }
+
+@media (max-width:450px){
+    html{
+        font-size: 50%
+    }
+}
+
+
 
