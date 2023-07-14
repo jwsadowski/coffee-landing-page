@@ -67,6 +67,7 @@ section {
 
 .home .content {
     flex: 1 1 40rem;
+    padding-top: 6.5rem;
 }
 
 .home .content .title {
@@ -108,5 +109,19 @@ section {
 
 .home .image .img {
     width: 100%
+}
+
+@media (max-width:991px){
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
 }
 
