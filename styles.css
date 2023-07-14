@@ -125,3 +125,24 @@ section {
     }
 }
 
+@media (max-width:768px){
+    .header #menu {
+        display: inline-block;
+    }
+
+    .header .navbar {
+        position: fixed;
+        top: 0; right: -105%;
+        width: 30rem;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(50px);
+        transition: .5s;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        z-index: 1200;
+        
+    }
+}
+
