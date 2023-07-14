@@ -49,3 +49,34 @@ html {
 .header #menu {
     display: none;
 }
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #2a201c;
+
+}
+
+.home .content {
+    flex: 1 1 40rem;
+}
+
+.home .content .title {
+    font-size: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.home .image {
+    flex: 1 1 40rem;
+}
+
+.home .image .img {
+    width: 100%
+}
+
