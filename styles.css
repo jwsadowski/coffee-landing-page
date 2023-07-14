@@ -15,6 +15,10 @@ html {
     font-size: 62.5%;
 }
 
+section {
+    padding: 2rem 9%;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -69,7 +73,33 @@ html {
     font-size: 6rem;
     color: #fff;
     text-transform: uppercase;
-    
+}
+
+.home .content .title span {
+    text-transform: uppercase;
+    color: #d3ad7f;
+}
+
+.home .content .description {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.home .content .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: #d3ad7f;
+    cursor: pointer;
+}
+
+.home .content .btn:hover {
+    letter-spacing: .2rem;
 }
 
 .home .image {
